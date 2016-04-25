@@ -2,8 +2,9 @@
 _Building a Google Container Cluster on Google Compute using terraform-gke_
 
 ##Prerequisites
-* terraform
+* terraform > version 0.6.14
 * gcloud commandline tool
+* kubectl > version 1.2.2
 
 ##Getting Started
 Create a Terraform variables file in the parent directory with the following content to supply the required
@@ -22,6 +23,8 @@ To create a Google Container cluster run:
 ```bash
 terraform apply -var-file=[location of variables file created above] -input=false -refresh=false ./
 ```
+
+Run `kubectl cluster-info` to view available services running on your cluster
 
 ###Tear it down
 To destroy the Google Container cluster that was just created.
