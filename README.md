@@ -34,7 +34,7 @@ terraform destory
 
 ###Google Credentials
 Follow these instructions to download the credentials file from Google for Google Compute:
-1. Log into the Google Developers Console and select a project.
-2. Click the menu button in the top left corner, and navigate to "Permissions", then "Service accounts", and finally "Create service account".
-3. Provide a name and ID in the corresponding fields, select "Furnish a new private key", and select "JSON" as the key type.
-4. Clicking "Create" will download your credentials.
+1.  Log into the Google Developers Console and select a project
+2.  Click the menu button in the top left corner, and navigate to "Permissions", then "Service accounts", and finally "Create service account"
+3.  Provide a name and ID in the corresponding fields, select "Furnish a new private key", and select "JSON" as the key type
+4.  Clicking "Create" will download your credentials
